@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1380px">
+    <link rel="stylesheet" href="styles.css">
+    <script src="Cal.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Basic Calculator</h1>
+    </div>
+    <div class="container">
+        <div class="display">
+            <input id="input" type="text" placeholder="0">
+        </div>
+        <div class="first">
+        <div class="buttons">
+            <button onclick="display(1)" class="clear">1</button> 
+         </div>
+         <div class="buttons">
+          <button onclick="display(2)" class="clear">2</button> 
+       </div>
+       <div class="buttons">
+          <button onclick="display(3)" class="clear">3</button> 
+       </div>
+       <div class="buttons">
+        <button onclick="display('+')" class="clear operations">+</button> 
+     </div>
+    </div>
+     <div class="second">
+        <div class="buttons">
+            <button onclick="display(4)"  class="clear">4</button> 
+         </div>
+         <div class="buttons">
+            <button onclick="display(5)"  class="clear">5</button> 
+         </div>
+         <div class="buttons">
+            <button onclick="display(6)"  class="clear">6</button> 
+         </div>
+         <div class="buttons">
+            <button onclick="display('-')" class="clear operations">-</button> 
+         </div>
+     </div>
+    <div class="third">
+        <div class="buttons">
+            <button onclick="display(7)"  class="clear">7</button> 
+         </div>
+         <div class="buttons">
+            <button onclick="display(8)"  class="clear">8</button> 
+         </div>
+         <div class="buttons">
+            <button onclick="display(9)"  class="clear">9</button> 
+         </div>
+         <div class="buttons">
+            <button onclick="display('*')"  class="clear operations">*</button> 
+         </div>
+    </div>
+    <div class="fourth">
+        <div class="buttons">
+            <button onclick="clr()" class="clear operations">C</button> 
+         </div>
+         <div class="buttons">
+            <button onclick="display(0)" class="clear">0</button> 
+         </div>
+         <div class="buttons">
+            <button onclick="resultadd()" class="clear operations">=</button> 
+         </div>
+         <div class="buttons">
+            <button onclick="display('/')"class="clear operations">/</button> 
+         </div>
+    </div>
+    </div>
+</body>
+</html>
+
+
